@@ -7,7 +7,6 @@ This project implements a Restricted Boltzmann Machine (RBM) to learn and genera
 - [Installation](#installation)
 - [Project Structure](#project-structure)
 - [Usage](#usage)
-- [License](#license)
 
 ## Installation
 
