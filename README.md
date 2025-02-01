@@ -27,6 +27,7 @@ This project implements a Restricted Boltzmann Machine (RBM) to learn and genera
 - `alternative_models.ipynb`: Notebook exploring alternative models and comparisons with RBM.
 - `analyses_croisées.ipynb`: Notebook for cross-analyses and evaluation of model performance.
 - `hyperparameters.ipynb`: Notebook dedicated to hyperparameter tuning and optimization.
+- `characters.ipynb`: Notebook dedicated to character number influence testing.
 - `mnist.ipynb`: Notebook for training and evaluating the RBM on the MNIST dataset.
 - `data/`: Directory to store datasets (e.g., Binary AlphaDigits, MNIST).
 - `requirements.txt`: Lists the dependencies required for the project.
@@ -51,7 +52,10 @@ Each notebook is designed to be self-contained and can be run independently. Her
 4. **hyperparameters.ipynb**:
    - Focuses on hyperparameter tuning (e.g., learning rate, number of hidden units) to optimize the RBM.
 
-5. **mnist.ipynb**:
+5. **characters.ipynb**:
+   - Focuses on number of characters tuning to understand influence on the RBM performance.
+
+6. **mnist.ipynb**:
    - Trains the RBM on the MNIST dataset.
    - Evaluates the model's ability to generate handwritten digits.
 
